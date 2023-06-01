@@ -10,4 +10,4 @@ spring:
     console:
       enabled: true
 
-fileRepositoryFolder: C:\\Users\\Utente-PC\\Desktop\\FileRepository
+fileRepositoryFolder: C:\\Users\\HP\Desktop\\FileRepository

@@ -29,12 +29,16 @@ public class FileController {
         }
         return fileNames;
     }
-    /*
+
+
+/*
     @PostMapping("/upload")
     public String upload(@RequestParam MultipartFile file) throws Exception{
         return fileStorageService.upload(file);
     }
-     */
+
+ */
+
 
     @GetMapping("/download")
     public @ResponseBody byte[] download(@RequestParam String fileName, HttpServletResponse response) throws IOException {
